@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="getpathInfo" />
+          <option value="Testcase_date.readConfig.codecs" />
+          <option value="Testcase_date.readConfig.*" />
+          <option value="get_init_path" />
+          <option value="get_path" />
+          <option value="readConfig" />
+          <option value="geturlParams" />
+          <option value="readExcel" />
+          <option value="pythoncom" />
+          <option value="Common.config_Email.win64com" />
+          <option value="Common.config_Email.*" />
+          <option value="Common.log.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
