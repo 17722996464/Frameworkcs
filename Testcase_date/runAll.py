@@ -11,16 +11,16 @@ path=getpathInfo().get_Path()
 print(path)
 #path1= 'D:\zz\Framework'
 #print(path)
-report_path = os.path.join(path,'result')
+report_path = os.path.join(path,'result')#报告路径
 print(report_path)
-class AllTest():
-    def __init__(self):
+class AllTest():#定义一个类AllTest
+    def __init__(self):#初始化一些参数和数据
         global resultPath
-        resultPath = os.path.join(report_path, 'report.html')
+        resultPath = os.path.join(report_path, 'report.html')#result/report.html
         print(resultPath)
-        self.casesListFile = os.path.join(path, "caselist.txt")
+        self.casesListFile = os.path.join(path, "caselist.txt")#配置执行哪些测试文件的配置文件路径
         print(self.casesListFile)
-        self.caseFile ='D:\zz\Framework\Testcase'
+        self.caseFile ='D:\zz\Framework\Testcase'#真正的测试断言文件路径
         self.caseList = []
         log.info('resultPath'+resultPath)
         log.info('caseListFile'+self.casesListFile)
